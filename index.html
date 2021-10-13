@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FILL DESCRIPTION BELOW -->
+  <meta name="description" content="CONTENT DESCRIPTION">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- DEVICON STYLESHEET -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Jan Seulin &mdash; Porfolio</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="main-nav">
+      <div class="nav-left">
+        <ul class="main-nav-list">
+          <li><a href="#technologies" class="main-nav-link">Habilidades</a></li>
+          <li><a href="#" class="main-nav-link">Projetos</a></li>
+        </ul>
+      </div>
+      <div class="cta-btn-box">
+        <a href="#" class="main-nav-link cta-btn">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section-hero">
+      <div class="hero">
+        <h1 class="primary-heading hero-title">Jan Seulin</h1>
+        <p class="hero-text">Estudante de Análise e Desenvolvimento de Sistemas</p>
+        <div class="hero-icons">
+          <a href="https://github.com/JanSeulin"><ion-icon class="hero-icon" name="logo-github"></ion-icon></a>
+          <a href="resources/sep25.pdf"><ion-icon class="hero-icon" name="document-attach-outline"></ion-icon></a>
+          <a href="mailto:jan.seulin@outlook.com"><ion-icon class="hero-icon" name="mail-outline"></ion-icon></a>
+        </div>
+        <a href="#technologies" class="btn hero-btn">Saiba mais <ion-icon class="hero-btn-icon" name="chevron-down-outline"></ion-icon></a>
+      </div>
+    </section>
+
+
+    <!-- Technologies Section -->
+    <section class="section-technologies" id="technologies">
+      <div class="container-wide">
+        <h2 class="secondary-heading techs-heading margin-bottom">Habilidades</h2>
+
+
+        <!-- CAROUSEL -->
+        <div class="carousel">
+          <!-- Left arrow -->
+          <button class="carousel-button carousel-button--left is-hidden">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </button>
+          <!-- Carousel track -->
+          <div class="carousel-track-container">
+            <ul class="carousel-track">
+              <li class="carousel-slide current-slide">
+                <div class="slide-content">
+                  <h3 class="tertiary-heading slide-title">Front-end</h3>
+                  <div class="languages-icons">
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img class="slide-icon black-img grid-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                  </div>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="slide-content">
+                  <h3 class="tertiary-heading slide-title">Back-end</h3>
+                  <div class="languages-icons">
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
+                    <img class="slide-icon grid-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" />
+                  </div>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="slide-content">
+                  <h3 class="tertiary-heading slide-title">Others</h3>
+                  <div class="languages-icons">
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+                    <img class="slide-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg" />
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Right arrow -->
+          <button class="carousel-button carousel-button--right">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+
+          <!-- Carousel Navigation -->
+          <div class="carousel-nav">
+            <button class="carousel-indicator current-slide"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+  </main>
+
+
+  <!-- SCRIPTS -->
+
+  <!-- IONICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- My Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
