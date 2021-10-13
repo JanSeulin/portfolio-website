@@ -8,3 +8,5 @@ Portfolio website project using HTML, CSS and Javascript. Currently featuring a 
 - Projects
 - Contact Me
 - Footer
+
+Mobile responsivity will be added after the desktop project is finished.
