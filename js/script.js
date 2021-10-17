@@ -1,3 +1,5 @@
+//////////////
+///// CAROUSEL
 const track = document.querySelector('.carousel-track');
 const slides = Array.from(track.children);
 const nextButton = document.querySelector('.carousel-button--right');
@@ -82,3 +84,18 @@ dotsNav.addEventListener('click', (e) => {
   updateDots(currentDot, targetDot);
   hideShowArrows(slides, prevButton, nextButton, targetIndex);
 });
+
+//////////////
+///// MOBILE NAV
+const mobileNav = document.querySelector('.mobile-nav');
+const mobileNavBtn = document.querySelector('.mobile-menu-icon');
+const openMenuBtn = document.querySelector('.open-menu');
+const closeMenuBtn = document.querySelector('.close-menu');
+
+const toggleNav = () => {
+  mobileNav.classList.toggle('hidden');
+  openMenuBtn.classList.toggle('hidden');
+  closeMenuBtn.classList.toggle('hidden');
+};
+
+mobileNavBtn.addEventListener('click', toggleNav);

@@ -76,6 +76,11 @@ body {
   padding: 0 3.2rem;
 }
 
+.container-wide {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -121,7 +126,7 @@ body {
 
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
-  background-color:  #F0B038;
+  background-color: #f0b038;
   color: #092964;
   font-weight: 500;
   text-decoration: none;
@@ -133,4 +138,8 @@ body {
 
 .margin-bottom {
   margin-bottom: 9.6rem;
+}
+
+.hidden {
+  display: none;
 }

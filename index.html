@@ -26,6 +26,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 
   <title>Jan Seulin &mdash; Desenvolvedor Web</title>
 </head>
@@ -33,15 +34,24 @@
 <body>
   <header class="header">
     <nav class="main-nav">
-      <div class="nav-left">
-        <ul class="main-nav-list">
-          <li><a href="#technologies" class="main-nav-link">Habilidades</a></li>
-          <li><a href="#" class="main-nav-link">Projetos</a></li>
-        </ul>
-      </div>
-      <div class="cta-btn-box">
-        <a href="#" class="main-nav-link cta-btn">Contato</a>
-      </div>
+      <ul class="main-nav-list">
+        <li class="nav-item"><a href="#technologies" class="main-nav-link">Habilidades</a></li>
+        <li class="nav-item"><a href="#portfolio" class="main-nav-link">Projetos</a></li>
+        <li class="nav-item"><a href="#" class="main-nav-link cta-btn">Contato</a></li>
+      </ul>
+    </nav>
+
+    <button class="mobile-menu-icon">
+      <ion-icon class="icon-mobile-nav open-menu" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav hidden close-menu" name="close-outline"></ion-icon>
+    </button>
+
+    <nav class="mobile-nav hidden">
+      <ul class="mobile-nav-list">
+        <li class="mb-nav-item"><a href="#technologies" class="mb-nav-link">Habilidades</a></li>
+        <li class="mb-nav-item"><a href="#portfolio" class="mb-nav-link">Projetos</a></li>
+        <li class="mb-nav-item"><a href="#" class="mb-nav-link">Contato</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -83,7 +93,7 @@
     <!-- Technologies Section -->
     <section class="section-technologies" id="technologies">
       <div class="container-wide">
-        <h2 class="secondary-heading techs-heading margin-bottom">Habilidades</h2>
+        <h2 class="secondary-heading techs-heading margin-bottom">HABILIDADES</h2>
 
 
         <!-- CAROUSEL -->
@@ -159,9 +169,125 @@
         </div>
       </div>
 
-      <a href="#technologies" class="btn technologies-btn">
+      <a href="#portfolio" class="btn technologies-btn">
         <ion-icon class="hero-btn-icon" name="chevron-down-outline"></ion-icon>
       </a>
+
+    </section>
+
+
+    <section class="section-portfolio" id="portfolio">
+      <div class="portfolio-container">
+        <h2 class="secondary-heading portfolio-heading margin-bottom">PROJETOS</h2>
+        <div class="projects-grid grid">
+          <!-- PROJECT 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/projects/purple-ballad.png" alt="Picture of the purple ballad browser minigame">
+            </div>
+            <div class="project-content">
+              <h3 class="tertiary-heading card-header">Purple Ballad Minigame</h3>
+              <p class="project-content-text">Um simples jogo focado em reflexos onde seu objetivo é clicar no retângulo
+                roxo para ganhar pontos. Dificuldade progressiva.</p>
+              <p class="project-content-text--shortened">Um simples jogo focado em reflexos onde seu objetivo é clicar
+                no retângulo
+                roxo para marcar pontos.</p>
+              <div class="tech-tags">
+                <span class="tag tag--html">HTML5</span>
+                <span class="tag tag--css">CSS3</span>
+                <span class="tag tag--javascript">JAVASCRIPT</span>
+              </div>
+              <div class="github-links">
+                <a class="github-link" href="https://github.com/JanSeulin/purple-ballad--minigame">
+                  <div>
+                    <img class="card-github-icon" src="img/source-code.png" alt="">
+                  </div>
+                  <div>
+                    <span class="github-icon-text">Código Fonte</span>
+                  </div>
+                </a>
+                <a class="github-link" href="https://janseulin.github.io/purple-ballad--minigame/">
+                  <div>
+                    <img class="card-github-icon" src="img/demo.png" alt="">
+                  </div>
+                  <div>
+                    <span class="github-icon-text">Live Demo</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- PROJECT 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="#" alt="placeholder">
+            </div>
+            <div class="project-content">
+              <h3 class="tertiary-heading card-header">Em breve!</h3>
+              <p class="project-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius
+                nesciunt, quos sit iure maiores...</p>
+              <div class="tech-tags">
+                <span class="tag tag--html">HTML5</span>
+                <span class="tag tag--css">CSS3</span>
+                <span class="tag tag--javascript">JAVASCRIPT</span>
+              </div>
+              <div class="github-links">
+                <a class="github-link" href="https://github.com/JanSeulin/purple-ballad--minigame">
+                  <div>
+                    <img class="card-github-icon" src="img/source-code.png" alt="">
+                  </div>
+                  <div>
+                    <span class="github-icon-text">Código Fonte</span>
+                  </div>
+                </a>
+                <a class="github-link" href="https://janseulin.github.io/purple-ballad--minigame/">
+                  <div>
+                    <img class="card-github-icon" src="img/demo.png" alt="">
+                  </div>
+                  <div>
+                    <span class="github-icon-text">Live Demo</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- PROJECT 3  -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="http://placekitten.com/d/200/" alt="placeholder">
+            </div>
+            <div class="project-content">
+              <h3 class="tertiary-heading card-header">Em breve!</h3>
+              <p class="project-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius
+                nesciunt, quos sit.</p>
+              <div class="tech-tags">
+                <span class="tag tag--html">HTML5</span>
+                <span class="tag tag--css">CSS3</span>
+                <span class="tag tag--javascript">JAVASCRIPT</span>
+              </div>
+              <div class="github-links">
+                <a class="github-link" href="https://github.com/JanSeulin/purple-ballad--minigame">
+                  <div>
+                    <img class="card-github-icon" src="img/source-code.png" alt="">
+                  </div>
+                  <div>
+                    <span class="github-icon-text">Código Fonte</span>
+                  </div>
+                </a>
+                <a class="github-link" href="https://janseulin.github.io/purple-ballad--minigame/">
+                  <div>
+                    <img class="card-github-icon" src="img/demo.png" alt="">
+                  </div>
+                  <div>
+                    <span class="github-icon-text">Live Demo</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
     </section>
 
