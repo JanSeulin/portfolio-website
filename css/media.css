@@ -71,6 +71,17 @@
   html {
     font-size: 56%;
   }
+  .section-portfolio,
+  .section-technologies {
+    padding-top: 4.8rem;
+  }
+
+  .secondary-heading {
+    margin-bottom: 3.6rem;
+  }
+  .technologies-btn {
+    margin: 10rem auto;
+  }
   .card-header {
     font-size: 2rem;
   }
@@ -209,6 +220,36 @@
   }
 }
 
+@media (max-height: 25em) {
+  html {
+    font-size: 46%;
+  }
+  .hero {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  .section-hero::after {
+    display: none;
+  }
+  .icon-mobile-nav {
+    top: 0.2rem;
+    right: 0.5rem;
+  }
+  .section-technologies {
+    padding-top: 4rem;
+  }
+  .secondary-heading {
+    margin-bottom: 2rem;
+  }
+  .technologies-btn {
+    margin: 7rem auto;
+  }
+  .mobile-menu-icon {
+    font-size: 6rem;
+  }
+}
+
+/* 448PX */
 @media (max-width: 28em) {
   html {
     font-size: 50%;
@@ -217,7 +258,7 @@
     text-align: center;
   }
   .github-links {
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
   .project-content-text {
     display: none;
@@ -241,5 +282,13 @@
   .slide-icon {
     width: 6.8rem;
     height: 6.8rem;
+  }
+
+  .secondary-heading {
+    margin-bottom: 3rem;
+  }
+
+  .btn-technologies {
+    margin: 8rem auto;
   }
 }
