@@ -82,8 +82,24 @@
   .technologies-btn {
     margin: 10rem auto;
   }
+  .section-hero::after {
+    display: none;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-content-text {
+    display: block;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+  }
   .card-header {
-    font-size: 2rem;
+    font-size: 2.6rem;
+  }
+  .tech-tags {
+    margin-top: 2rem;
   }
   .project-content-text--shortened {
     display: none;
@@ -101,14 +117,22 @@
     margin-top: 0;
     font-size: 1rem;
   }
-  .tech-tags {
-    margin-top: 3rem;
-  }
   .project-card:hover .card-header {
     margin-bottom: 1rem;
   }
   .github-links {
-    margin-top: 0;
+    margin-top: 2rem;
+  }
+
+  .carousel {
+    height: 35rem;
+  }
+
+  .slide-icon,
+  .icon-bg,
+  .icon-vbg {
+    width: 7.6rem;
+    height: 7.6rem;
   }
 
   /* MOBILE NAVIGATION */
@@ -200,26 +224,7 @@
   }
 }
 
-@media (max-width: 48em) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-  .project-content-text {
-    display: block;
-    margin-top: 3rem;
-    font-size: 1.6rem;
-  }
-  .card-header {
-    font-size: 2.6rem;
-  }
-  .tech-tags {
-    margin-top: 2rem;
-  }
-  .github-links {
-    margin-top: 2rem;
-  }
-}
-
+/* 400px HEIGHT */
 @media (max-height: 25em) {
   html {
     font-size: 46%;
@@ -227,6 +232,7 @@
   .hero {
     height: auto;
     padding-bottom: 2rem;
+    padding-top: 5rem;
   }
   .section-hero::after {
     display: none;
