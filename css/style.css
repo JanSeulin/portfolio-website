@@ -580,6 +580,7 @@
   display: inline-block;
   text-align: center;
   width: 90%;
+  margin: 0 auto;
   font-size: 1.6rem;
   line-height: 1.6;
 
@@ -660,6 +661,7 @@
   /* background-color: #fff; */
 
   transition: all 1s;
+  text-align: center;
 }
 
 .project-card:hover .project-img img {
@@ -673,6 +675,7 @@
 .project-card:hover .tech-tags,
 .project-card:hover .project-content-text,
 .project-card:hover .github-links {
+  text-align: center;
   opacity: 1;
   transition-delay: 0.5s;
 }
