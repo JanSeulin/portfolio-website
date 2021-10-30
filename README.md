@@ -1,12 +1,12 @@
 # Portfolio Website
-## *Under construction
+
+### \*Under construction
 
 [Live demo](https://janseulin.github.io/portfolio-website/)
 
-Portfolio website project using HTML, CSS and Javascript. Currently featuring a header, hero and skills sections. The following sections are Under construction:
+Portfolio website project using HTML, CSS and vanilla Javascript. Currently featuring a header/hero, skills and projects sections. The following sections are Under construction:
 
-- Projects
 - Contact Me
 - Footer
 
-Mobile responsivity will be added after the desktop project is finished.
+Partial mobile responsivity, further testing and optimizations will be realized after the full website is finished.
