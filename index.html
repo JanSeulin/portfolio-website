@@ -23,12 +23,13 @@
   <!-- DEVICON STYLESHEET -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 
-  <title>Jan Seulin &mdash; Desenvolvedor Web</title>
+  <title>Jan Seulin &mdash; Web Development</title>
 </head>
 
 <body>
@@ -36,9 +37,9 @@
   <header class="header">
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li class="nav-item"><a href="#technologies" class="main-nav-link">Habilidades</a></li>
-        <li class="nav-item"><a href="#portfolio" class="main-nav-link">Projetos</a></li>
-        <li class="nav-item"><a href="#" class="main-nav-link cta-btn">Contato</a></li>
+        <li class="nav-item"><a href="#technologies" class="main-nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#portfolio" class="main-nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#" class="main-nav-link cta-btn">Contact</a></li>
       </ul>
     </nav>
     <!-- Mobile Icon -->
@@ -49,9 +50,9 @@
     <!-- Mobile Navigation -->
     <nav class="mobile-nav hidden">
       <ul class="mobile-nav-list">
-        <li class="mb-nav-item"><a href="#technologies" class="mb-nav-link">Habilidades</a></li>
-        <li class="mb-nav-item"><a href="#portfolio" class="mb-nav-link">Projetos</a></li>
-        <li class="mb-nav-item"><a href="#" class="mb-nav-link">Contato</a></li>
+        <li class="mb-nav-item"><a href="#technologies" class="mb-nav-link">Skills</a></li>
+        <li class="mb-nav-item"><a href="#portfolio" class="mb-nav-link">Projects</a></li>
+        <li class="mb-nav-item"><a href="#" class="mb-nav-link">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -73,19 +74,19 @@
           <li class="unselectable">i</li>
           <li class="unselectable">n</li>
         </ul>
-        <p class="hero-text">Estudante de Análise e Desenvolvimento de Sistemas</p>
+        <p class="hero-text">Systems Analysis and Development Student</p>
         <div class="hero-icons">
           <a href="https://github.com/JanSeulin">
-            <ion-icon class="hero-icon" name="logo-github"></ion-icon>
+            <img src="img/icons/logo-github.svg" class="hero-icon" alt="">
           </a>
           <a href="resources/oct21-jan.pdf">
-            <ion-icon class="hero-icon" name="document-attach-outline"></ion-icon>
+            <img src="img/icons/document-attach-outline.svg" class="hero-icon" alt="">
           </a>
           <a href="mailto:jan.seulin@outlook.com">
-            <ion-icon class="hero-icon" name="mail-outline"></ion-icon>
+            <img src="img/icons/mail-outline.svg" class="hero-icon" alt="">
           </a>
         </div>
-        <a href="#technologies" class="btn hero-btn">Saiba mais <ion-icon class="hero-btn-icon"
+        <a href="#technologies" class="btn hero-btn">Learn More <ion-icon class="hero-btn-icon"
             name="chevron-down-outline"></ion-icon></a>
       </div>
     </section>
@@ -94,13 +95,14 @@
     <!-- TECHNOLOGIES SECTION -->
     <section class="section-technologies" id="technologies">
       <div class="container-wide">
-        <h2 class="secondary-heading techs-heading margin-bottom">HABILIDADES</h2>
+        <h2 class="secondary-heading techs-heading margin-bottom">SKILLS</h2>
 
         <!-- CAROUSEL -->
         <div class="carousel">
           <!-- Left arrow -->
           <button class="carousel-button carousel-button--left is-hidden">
-            <ion-icon name="chevron-back-outline"></ion-icon>
+            <!-- <ion-icon name="chevron-back-outline"></ion-icon> -->
+            <img src="img/icons/chevron-back-outline.svg" alt="">
           </button>
           <!-- Carousel track -->
           <div class="carousel-track-container">
@@ -137,7 +139,7 @@
               </li>
               <li class="carousel-slide">
                 <div class="slide-content">
-                  <h3 class="tertiary-heading slide-title">Outros</h3>
+                  <h3 class="tertiary-heading slide-title">Others</h3>
                   <div class="languages-icons">
                     <img class="slide-icon"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
@@ -157,7 +159,8 @@
           </div>
           <!-- Right arrow -->
           <button class="carousel-button carousel-button--right">
-            <ion-icon name="chevron-forward-outline"></ion-icon>
+            <!-- <ion-icon name="chevron-forward-outline"></ion-icon> -->
+            <img src="img/icons/chevron-forward-outline.svg" alt="">
           </button>
 
           <!-- Carousel Navigation -->
@@ -178,9 +181,45 @@
     <!-- PORTFOLIO SECTION -->
     <section class="section-portfolio" id="portfolio">
       <div class="portfolio-container">
-        <h2 class="secondary-heading portfolio-heading margin-bottom">PROJETOS</h2>
+        <h2 class="secondary-heading portfolio-heading margin-bottom">PROJECTS</h2>
         <div class="projects-grid grid">
+
           <!-- PROJECT 1 -->
+          <div class="card-container">
+            <div class="project-card">
+              <div class="card-front">
+                <img class="project-img" src="img/projects/the-wired.png" alt="">
+                <div class="title-container">
+                  <h3 class="tertiary-heading card-heading">The Wired Store</h3>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3 class="tertiary-heading card-heading--back">Description</h3>
+                <p class="card-back-text">Mockup E-commerce website created with React and Firebase. Currently under
+                  construction.</p>
+                <div class="tech-tags">
+                  <div class="tag tag--html">HTML</div>
+                  <div class="tag tag--css">CSS</div>
+                  <div class="tag tag--javascript">JAVASCRIPT</div>
+                  <div class="tag tag--react">REACT</div>
+                  <div class="tag tag--firebase">FIREBASE</div>
+                </div>
+                <div class="github-links">
+                  <a class="github-link" href="https://github.com/JanSeulin/TheWired">
+                    <img class="card-github" src="/img/icons/code-slash-outline.svg" alt="">
+                    <p class="github-link-text">Source Code</p>
+                  </a>
+
+                  <a class="github-link" href="https://janseulin.github.io/TheWired/#/">
+                    <img class="card-github" src="/img/icons/play-outline.svg" alt="">
+                    <p class="github-link-text">Live Demo</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
           <div class="card-container">
             <div class="project-card">
               <div class="card-front">
@@ -190,7 +229,7 @@
                 </div>
               </div>
               <div class="card-back">
-                <h3 class="tertiary-heading card-heading--back">Descrição</h3>
+                <h3 class="tertiary-heading card-heading--back">Description</h3>
                 <p class="card-back-text">Website criado com intenção de praticar HTML, CSS e Javascript. Contém
                   diversos efeitos e componentes animados usando Javascript.</p>
                 <div class="tech-tags">
@@ -200,12 +239,12 @@
                 </div>
                 <div class="github-links">
                   <a class="github-link" href="https://github.com/JanSeulin/delivery-website--mock-up">
-                    <ion-icon class="card-github-icon" name="code-slash-outline"></ion-icon>
+                    <img class="card-github" src="/img/icons/code-slash-outline.svg" alt="">
                     <p class="github-link-text">Source Code</p>
                   </a>
 
                   <a class="github-link" href="https://janseulin.github.io/delivery-website--mock-up/">
-                    <ion-icon class="card-github-icon" name="play-outline"></ion-icon>
+                    <img class="card-github" src="/img/icons/play-outline.svg" alt="">
                     <p class="github-link-text">Live Demo</p>
                   </a>
                 </div>
@@ -214,7 +253,7 @@
           </div>
 
 
-          <!-- PROJECT 2 -->
+          <!-- PROJECT 3 -->
           <div class="card-container">
             <div class="project-card">
               <div class="card-front">
@@ -224,7 +263,7 @@
                 </div>
               </div>
               <div class="card-back">
-                <h3 class="tertiary-heading card-heading--back">Descrição</h3>
+                <h3 class="tertiary-heading card-heading--back">Description</h3>
                 <p class="card-back-text">Um simples jogo de browser baseado em reflexos. Seu objetivo é clicar no
                   retângulo roxo. Dificuldade progressiva conforme a pontuação.</p>
                 <div class="tech-tags">
@@ -234,12 +273,13 @@
                 </div>
                 <div class="github-links">
                   <a class="github-link" href="https://github.com/JanSeulin/purple-ballad--minigame" target="_blank">
-                    <ion-icon class="card-github-icon" name="code-slash-outline"></ion-icon>
+                    <img class="card-github" src="/img/icons/code-slash-outline.svg" alt="">
                     <p class="github-link-text">Source Code</p>
                   </a>
 
                   <a class="github-link" href="https://janseulin.github.io/purple-ballad--minigame/" target="_blank">
-                    <ion-icon class="card-github-icon" name="play-outline"></ion-icon>
+                    <!-- <ion-icon class="card-github-icon" name="play-outline"></ion-icon> -->
+                    <img class="card-github" src="/img/icons/play-outline.svg" alt="">
                     <p class="github-link-text">Live Demo</p>
                   </a>
                 </div>
@@ -247,17 +287,17 @@
             </div>
           </div>
 
-          <!-- PROJECT 3 -->
+          <!-- PROJECT 4 -->
           <div class="card-container">
             <div class="project-card">
               <div class="card-front">
                 <img class="project-img" src="https://placekitten.com/640/360" alt="">
                 <div class="title-container">
-                  <h3 class="tertiary-heading card-heading">Em breve!</h3>
+                  <h3 class="tertiary-heading card-heading">Soon!</h3>
                 </div>
               </div>
               <div class="card-back">
-                <h3 class="tertiary-heading card-heading--back">Descrição</h3>
+                <h3 class="tertiary-heading card-heading--back">Description</h3>
                 <p class="card-back-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur magnam
                   exercitationem temporibus quia omnis perspiciatis consequuntur, dolore possimus facilis dolor?</p>
                 <div class="tech-tags">
@@ -267,19 +307,18 @@
                 </div>
                 <div class="github-links">
                   <a class="github-link" href="#">
-                    <ion-icon class="card-github-icon" name="code-slash-outline"></ion-icon>
+                    <img class="card-github" src="/img/icons/code-slash-outline.svg" alt="">
                     <p class="github-link-text">Source Code</p>
                   </a>
 
                   <a class="github-link" href="#">
-                    <ion-icon class="card-github-icon" name="play-outline"></ion-icon>
+                    <img class="card-github" src="/img/icons/play-outline.svg" alt="">
                     <p class="github-link-text">Live Demo</p>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
 
 
         </div>
@@ -293,8 +332,10 @@
   <!-- SCRIPTS -->
 
   <!-- IONICONS -->
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 
   <!-- My Scripts -->
   <script src="js/script.js"></script>
