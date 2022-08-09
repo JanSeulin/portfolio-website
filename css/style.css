@@ -22,16 +22,16 @@
 .main-nav-list {
   display: flex;
   justify-content: flex-end;
-  gap: 3rem;
+  gap: 1rem;
   list-style: none;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
-  width: 15rem;
-  padding: 1.2rem 2.4rem;
-  border: 1px solid #f0b038;
+  width: 12rem;
+  padding: 1.2rem 1.8rem;
+  /* border: 1px solid #f0b038; */
   border-radius: 6px;
 
   color: #fff;
@@ -43,9 +43,9 @@
   transition: all 0.3s;
 }
 
-.nav-item:nth-child(2) {
+/* .nav-item:nth-child(2) {
   margin-right: auto;
-}
+} */
 
 .main-nav-link:hover,
 .main-nav-link:active {
@@ -56,15 +56,15 @@
 .cta-btn,
 .cta-btn:link,
 .cta-btn:visited {
-  background-color: #f0b038;
-  color: #092964;
+  /* background-color: #f0b038; */
+  /* color: #092964; */
 }
 
-.cta-btn:hover,
+/* .cta-btn:hover,
 .cta-btn:active {
   background-color: transparent;
   color: #fff;
-}
+} */
 
 /* Mobile Nav - Disable in Desktop */
 .mobile-nav,
